@@ -1,0 +1,2374 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head><script src="/livereload.js?port=43767&mindelay=10&v=2" data-no-instant defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Olivier Rué">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Bioinformatics Engineer">
+
+  
+  <link rel="alternate" hreflang="en-us" href="//localhost:43767/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="//localhost:43767/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="//localhost:43767/">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="Bioinformatics Engineer"><meta property="og:image" content="//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "//localhost:43767/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "//localhost:43767/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title></title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/author/olivier-rue/avatar_hua6a8505178726d8820c1d99213a4259a_53130_270x270_fill_q90_lanczos_center.jpg" alt="Olivier Rué">
+      
+
+      <div class="portrait-title">
+        <h2>Olivier Rué</h2>
+        <h3>Bioinformatics Engineer</h3>
+
+        
+        <h3>
+          <a href="www.inrae.fr" target="_blank" rel="noopener">
+          <span>INRAE</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://migale.inrae.fr" target="_blank" rel="noopener">
+          <span>Migale Facility</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.fr/scholar?hl=fr&amp;as_sdt=0%2C5&amp;q=%22Olivier&#43;Ru%C3%A9%22&amp;btnG=&amp;oq=Olivier" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://forgemia.inra.fr/olivierrue/" target="_blank" rel="noopener">
+            <i class="fab fa-gitlab big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    <p>I am Bioinformatics Engineer at INRAE. I am working on the Migale bioinformatics facility. I am specialized in analyzing metagenomics data (metagenetics, shotgun metagenomics and metatranscriptomics).</p>
+<p>I am the head of the <a href="https://migale.inrae.fr/data-analysis">data analysis service</a> offered by the Migale facility.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Data Analysis</li>
+          
+          <li>Web development</li>
+          
+          <li>Project management</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Master Degree in Informatics &#34;Complementary IT skills&#34;, 2011</p>
+              <p class="institution">Université Rennes 1</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Master Degree in Sport Sciences &#34;Training and Sport Sciences&#34;, 2010</p>
+              <p class="institution">Université Rennes 2</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Master Degree in Sport Sciences &#34;Biomechanics&#34;, 2009</p>
+              <p class="institution">Université Rennes 2</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Skills</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-terminal"></i></div>
+    <h3>Bioinformatics</h3>
+    <p>100%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-dna"></i></div>
+    <h3>Genomics</h3>
+    <p>100%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+    <h3>Teaching</h3>
+    <p>90%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-js-square"></i></div>
+    <h3>Web development</h3>
+    <p>90%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
+    <h3>Biostatistics</h3>
+    <p>80%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-laptop-code"></i></div>
+    <h3>Software engineery</h3>
+    <p>80%</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Bioinformatics engineer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://migale.inrae.fr" target="_blank" rel="noopener">INRAE - Migale facility</a></h4>
+            <div class="text-muted exp-meta">
+              Nov 2015 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Jouy-en-Josas (France)</span>
+              
+            </div>
+            <div class="card-text">Responsibilities include:</p>
+<ul>
+<li>Heading the Data Analysis service</li>
+<li>Conducting NGS data analyses</li>
+<li>Learning bioinformatics to scientists</li>
+<li>Developing and administrating websites</li>
+<li>Doing End-user support</li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Fixed-term contract as Bioinformatics engineer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://bioinfo.genotoul.fr" target="_blank" rel="noopener">INRAE - Genotoul facility</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2013 –
+              
+                Oct 2015
+              
+              
+                <span class="middot-divider"></span>
+                <span>Toulouse (France)</span>
+              
+            </div>
+            <div class="card-text">Development of a workflow dedicated to small RNA data analysis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Fixed-term contract as Bioinformatics engineer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.sigenae.org/" target="_blank" rel="noopener">INRAE - SIGENAE team</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2011 –
+              
+                Dec 2012
+              
+              
+                <span class="middot-divider"></span>
+                <span>Toulouse (France)</span>
+              
+            </div>
+            <div class="card-text">Development of a workflow dedicated to SNP calling</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="accomplishments" class="home-section wg-accomplishments   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Trainings</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Neural Networks and Deep Learning</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+            Oct 2018
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
+              See slides
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Blockchain Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
+
+            Mar 2018
+            
+          </div>
+
+          
+            <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
+          
+
+          
+            <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
+              See slides
+            </a>
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Object-Oriented Programming in R: S3 and R6 Course</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
+
+            Jul 2017
+            
+            – Dec 2017
+            
+          </div>
+
+          
+
+          
+            <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
+              See slides
+            </a>
+          
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Posts</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="https://github.com/geraldinepascal/FROGS" target="_blank" rel="noopener">Migale infrastructure</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Find Rapidly OTUs with Galaxy Solution.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2016
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="projects" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Metabarcoding">
+  <div class="card">
+    
+    
+    <a href="https://github.com/geraldinepascal/FROGS" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/frogs/featured_hu3c1058f91620427e2750a76f0db1ba66_139371_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/geraldinepascal/FROGS" target="_blank" rel="noopener">FROGS</a></h4>
+      
+      <div class="article-style">
+        <p>Find Rapidly OTUs with Galaxy Solution.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Metagenetics js-id-Metagenomics">
+  <div class="card">
+    
+    
+    <a href="http://www.rmtfromagesdeterroirs.com/projets-de-r-et-d/metapdocheese/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/metapdocheese/featured_hu18a48fa7607fdf9b75ac24d5fb95cc3f_1670774_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="http://www.rmtfromagesdeterroirs.com/projets-de-r-et-d/metapdocheese/" target="_blank" rel="noopener">MetaPDOCheese</a></h4>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Metagenetics js-id-Metagenomics">
+  <div class="card">
+    
+    
+    <a href="http://www.redlosses.fr/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/redlosses/featured_hub5cefc84cfb45bf0e67fdd7093b17b0a_314806_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="http://www.redlosses.fr/" target="_blank" rel="noopener">REDLOSSES</a></h4>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="//localhost:43767/publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/de-2020-assessing/" >Assessing the quality of fresh Whitemouth croaker (Micropogonias furnieri) meat based on micro-organism and histamine analysis using NGS, qPCR and HPLC-DAD</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>Alessandra Danile de Lira</span>, <span>Caroline Isabel Kothe</span>, <span>Olivier Rué</span>, <span>Cédric Midoux</span>, <span>Michele Bertoni Mann</span>, <span>Luana Peixoto Mallmann</span>, <span>Í MS de Castro</span>, <span>Ana Paula Guedes Frazzon</span>, <span>Jeverson Frazzon</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/de-2020-assessing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/naudon-2020-first/" >First step of odorant detection in the olfactory epithelium and olfactory preferences differ according to the microbiota profile in mice</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>Laurent Naudon</span>, <span>Adrien François</span>, <span>Mahendra Mariadassou</span>, <span>Magali Monnoye</span>, <span>Catherine Philippe</span>, <span>Aurelia Bruneau</span>, <span>Marie Dussauze</span>, <span>Olivier Rué</span>, <span>Sylvie Rabot</span>, <span>Nicolas Meunier</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/naudon-2020-first/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/saltaji-2020-lactococcus/" >Lactococcus lactis Diversity Revealed by Targeted Amplicon Sequencing of purR Gene, Metabolic Comparisons and Antimicrobial Properties in an Undefined Mixed Starter Culture Used for Soft-Cheese Manufacture</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>Sabrina Saltaji</span>, <span>Olivier Rué</span>, <span>Valérie Sopena</span>, <span>Sophie Sablé</span>, <span>Fatoumata Tambadou</span>, <span>Sandrine Didelot</span>, <span>Romain Chevrot</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/saltaji-2020-lactococcus/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/poirier-2020-large/" >Large-scale multivariate dataset on the characterization of microbiota diversity, microbial growth dynamics, metabolic spoilage volatilome and sensorial profiles of two industrially produced meat products subjected to changes in lactate concentration and packaging atmosphere.</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>Simon Poirier</span>, <span>Ngoc-Du Martin Luong</span>, <span>Valérie Anthoine</span>, <span>Sandrine Guillou</span>, <span>Jeanne-Marie Membré</span>, <span>Nicolas Moriceau</span>, <span>Sandrine Rezé</span>, <span>Monique Zagorec</span>, <span>Carole Feurer</span>, <span>Bastien Frémaux</span>, <span> others</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/poirier-2020-large/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/michel-2019-artisanal/" >Artisanal and farmers bread making practices differently shape fungal species diversity in French sourdoughs</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>Elisa Michel</span>, <span>Estelle Masson</span>, <span>Sandrine Bubbendorf</span>, <span>Léocadie Lapicque</span>, <span>Judith Legrand</span>, <span>Stéphane Guézenec</span>, <span>Thibault Nidelet</span>, <span>Thérèse Marlin</span>, <span>Olivier Rué</span>, <span>Bernard Onno</span>, <span> others</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/michel-2019-artisanal/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/olivier.rue@inrae.fr">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul">
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone"><a href="tel:01%2034%2065%2028%2093">01 34 65 28 93</a></span>
+      </li>
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">Domaine de Vilvert, Jouy-en-Josas, Ile-de-France 78350</span>
+        </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+        <span>Bat 233</span>
+      </li>
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="48.7667">
+      <input id="map-lng" value="2.1667">
+      <input id="map-dir" value="Domaine de Vilvert, Jouy-en-Josas, Ile-de-France 78350">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> others | </title>
+    <link>//localhost:43767/author/others/</link>
+      <atom:link href="//localhost:43767/author/others/index.xml" rel="self" type="application/rss+xml" />
+    <description> others</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title> others</title>
+      <link>//localhost:43767/author/others/</link>
+    </image>
+    
+    <item>
+      <title>Large-scale multivariate dataset on the characterization of microbiota diversity, microbial growth dynamics, metabolic spoilage volatilome and sensorial profiles of two industrially produced meat products subjected to changes in lactate concentration and packaging atmosphere.</title>
+      <link>//localhost:43767/publication/poirier-2020-large/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2020-large/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artisanal and farmers bread making practices differently shape fungal species diversity in French sourdoughs</title>
+      <link>//localhost:43767/publication/michel-2019-artisanal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/michel-2019-artisanal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative metatranscriptomic analysis of anaerobic digesters treating anionic surfactant contaminated wastewater</title>
+      <link>//localhost:43767/publication/delforno-2019-comparative/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/delforno-2019-comparative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guide pratique à destination des biologistes, bioinformaticiens et statisticiens qui souhaitent s’ initier aux analyses métabarcoding</title>
+      <link>//localhost:43767/publication/falentin-2019-guide/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/falentin-2019-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gut bacteria are critical for optimal muscle function: a potential link with glucose homeostasis</title>
+      <link>//localhost:43767/publication/nay-2019-gut/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/nay-2019-gut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oak genome reveals facets of long lifespan</title>
+      <link>//localhost:43767/publication/plomion-2018-oak/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/plomion-2018-oak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Draft Anaplasma phagocytophilum genome sequences from five cows, two horses, and one roe deer collected in Europe</title>
+      <link>//localhost:43767/publication/dugat-2016-draft/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/dugat-2016-draft/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

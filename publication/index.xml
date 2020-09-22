@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | </title>
+    <link>//localhost:43767/publication/</link>
+      <atom:link href="//localhost:43767/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>//localhost:43767/publication/</link>
+    </image>
+    
+    <item>
+      <title>Assessing the quality of fresh Whitemouth croaker (Micropogonias furnieri) meat based on micro-organism and histamine analysis using NGS, qPCR and HPLC-DAD</title>
+      <link>//localhost:43767/publication/de-2020-assessing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/de-2020-assessing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First step of odorant detection in the olfactory epithelium and olfactory preferences differ according to the microbiota profile in mice</title>
+      <link>//localhost:43767/publication/naudon-2020-first/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/naudon-2020-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lactococcus lactis Diversity Revealed by Targeted Amplicon Sequencing of purR Gene, Metabolic Comparisons and Antimicrobial Properties in an Undefined Mixed Starter Culture Used for Soft-Cheese Manufacture</title>
+      <link>//localhost:43767/publication/saltaji-2020-lactococcus/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/saltaji-2020-lactococcus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large-scale multivariate dataset on the characterization of microbiota diversity, microbial growth dynamics, metabolic spoilage volatilome and sensorial profiles of two industrially produced meat products subjected to changes in lactate concentration and packaging atmosphere.</title>
+      <link>//localhost:43767/publication/poirier-2020-large/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2020-large/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artisanal and farmers bread making practices differently shape fungal species diversity in French sourdoughs</title>
+      <link>//localhost:43767/publication/michel-2019-artisanal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/michel-2019-artisanal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative metatranscriptomic analysis of anaerobic digesters treating anionic surfactant contaminated wastewater</title>
+      <link>//localhost:43767/publication/delforno-2019-comparative/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/delforno-2019-comparative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of sodium chloride reduction or partial substitution with potassium chloride on the microbiological, biochemical and sensory characteristics of semi-hard and soft cheeses</title>
+      <link>//localhost:43767/publication/dugat-2019-effect/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/dugat-2019-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guide pratique à destination des biologistes, bioinformaticiens et statisticiens qui souhaitent s’ initier aux analyses métabarcoding</title>
+      <link>//localhost:43767/publication/falentin-2019-guide/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/falentin-2019-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gut bacteria are critical for optimal muscle function: a potential link with glucose homeostasis</title>
+      <link>//localhost:43767/publication/nay-2019-gut/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/nay-2019-gut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxon appearance from extraction and amplification steps demonstrates the value of multiple controls in tick microbiota analysis</title>
+      <link>//localhost:43767/publication/lejal-2019-taxon/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/lejal-2019-taxon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciphering intra-species bacterial diversity of meat and seafood spoilage microbiota using gyrB amplicon sequencing: A comparative analysis with 16S rDNA V3-V4 amplicon sequencing</title>
+      <link>//localhost:43767/publication/poirier-2018-deciphering/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2018-deciphering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of an amplification bias associated to Leuconostocaceae family with a universal primer routinely used for monitoring microbial community structures within food products</title>
+      <link>//localhost:43767/publication/poirier-2018-detection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2018-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oak genome reveals facets of long lifespan</title>
+      <link>//localhost:43767/publication/plomion-2018-oak/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/plomion-2018-oak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of an extensive rainbow trout miRNA transcriptome by next generation sequencing</title>
+      <link>//localhost:43767/publication/bardou-2016-characterization/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/bardou-2016-characterization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of an extensive rainbow trout miRNA transcriptome by next generation sequencing</title>
+      <link>//localhost:43767/publication/juanchich-2016-characterization/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/juanchich-2016-characterization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Draft Anaplasma phagocytophilum genome sequences from five cows, two horses, and one roe deer collected in Europe</title>
+      <link>//localhost:43767/publication/dugat-2016-draft/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/dugat-2016-draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingredients for in silico miRNA identification and annotation</title>
+      <link>//localhost:43767/publication/gaspin-2016-ingredients/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/gaspin-2016-ingredients/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validation of the Loughborough Soccer Passing Test in young soccer players</title>
+      <link>//localhost:43767/publication/le-2014-validation/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/le-2014-validation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

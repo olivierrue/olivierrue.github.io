@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Romain Chevrot | </title>
+    <link>//localhost:43767/author/romain-chevrot/</link>
+      <atom:link href="//localhost:43767/author/romain-chevrot/index.xml" rel="self" type="application/rss+xml" />
+    <description>Romain Chevrot</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Romain Chevrot</title>
+      <link>//localhost:43767/author/romain-chevrot/</link>
+    </image>
+    
+    <item>
+      <title>Lactococcus lactis Diversity Revealed by Targeted Amplicon Sequencing of purR Gene, Metabolic Comparisons and Antimicrobial Properties in an Undefined Mixed Starter Culture Used for Soft-Cheese Manufacture</title>
+      <link>//localhost:43767/publication/saltaji-2020-lactococcus/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/saltaji-2020-lactococcus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

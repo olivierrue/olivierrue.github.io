@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ngoc-Du Martin Luong | </title>
+    <link>//localhost:43767/author/ngoc-du-martin-luong/</link>
+      <atom:link href="//localhost:43767/author/ngoc-du-martin-luong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ngoc-Du Martin Luong</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ngoc-Du Martin Luong</title>
+      <link>//localhost:43767/author/ngoc-du-martin-luong/</link>
+    </image>
+    
+    <item>
+      <title>Large-scale multivariate dataset on the characterization of microbiota diversity, microbial growth dynamics, metabolic spoilage volatilome and sensorial profiles of two industrially produced meat products subjected to changes in lactate concentration and packaging atmosphere.</title>
+      <link>//localhost:43767/publication/poirier-2020-large/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2020-large/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

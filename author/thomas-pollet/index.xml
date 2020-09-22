@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Pollet | </title>
+    <link>//localhost:43767/author/thomas-pollet/</link>
+      <atom:link href="//localhost:43767/author/thomas-pollet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomas Pollet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Thomas Pollet</title>
+      <link>//localhost:43767/author/thomas-pollet/</link>
+    </image>
+    
+    <item>
+      <title>Taxon appearance from extraction and amplification steps demonstrates the value of multiple controls in tick microbiota analysis</title>
+      <link>//localhost:43767/publication/lejal-2019-taxon/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/lejal-2019-taxon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

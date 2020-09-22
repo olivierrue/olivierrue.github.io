@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Poirier | </title>
+    <link>//localhost:43767/author/simon-poirier/</link>
+      <atom:link href="//localhost:43767/author/simon-poirier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simon Poirier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Simon Poirier</title>
+      <link>//localhost:43767/author/simon-poirier/</link>
+    </image>
+    
+    <item>
+      <title>Large-scale multivariate dataset on the characterization of microbiota diversity, microbial growth dynamics, metabolic spoilage volatilome and sensorial profiles of two industrially produced meat products subjected to changes in lactate concentration and packaging atmosphere.</title>
+      <link>//localhost:43767/publication/poirier-2020-large/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2020-large/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciphering intra-species bacterial diversity of meat and seafood spoilage microbiota using gyrB amplicon sequencing: A comparative analysis with 16S rDNA V3-V4 amplicon sequencing</title>
+      <link>//localhost:43767/publication/poirier-2018-deciphering/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2018-deciphering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of an amplification bias associated to Leuconostocaceae family with a universal primer routinely used for monitoring microbial community structures within food products</title>
+      <link>//localhost:43767/publication/poirier-2018-detection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/poirier-2018-detection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etienne Rifa | </title>
+    <link>//localhost:43767/author/etienne-rifa/</link>
+      <atom:link href="//localhost:43767/author/etienne-rifa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Etienne Rifa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:43767/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Etienne Rifa</title>
+      <link>//localhost:43767/author/etienne-rifa/</link>
+    </image>
+    
+    <item>
+      <title>Guide pratique à destination des biologistes, bioinformaticiens et statisticiens qui souhaitent s’ initier aux analyses métabarcoding</title>
+      <link>//localhost:43767/publication/falentin-2019-guide/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:43767/publication/falentin-2019-guide/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
